@@ -32,6 +32,7 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
+    color: #fff;
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
@@ -298,18 +299,21 @@ a.active {
 
 #about {
     padding: 100px 0;
+    background-color: #444;
+    color: #fff;
 }
 
 .about-img-div img {
     margin: 0 auto;
+    filter: grayscale(100%);
 }
 
 .about-border {
     position: absolute;
-    border: 10px solid rgb(218, 13, 13);
-    width: 400px;
+    border: 10px solid rgb(0, 255, 221);
+    width: 450px;
     height: 400px;
-    top: 40px;
+    top: 20px;
     left: 50px;
     z-index: 1
 }
@@ -320,7 +324,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #555;
 }
 
 .experience-row {
@@ -445,6 +449,7 @@ a.active {
 
 #projects {
     padding: 100px 0;
+    background-color: #444;
 }
 
 .portfolio .categories-grid span {
@@ -460,7 +465,7 @@ a.active {
 
 .portfolio .categories-grid .categories ul li a {
     display: inline-block;
-    color: #60606e;
+    color: #fff;
     padding: 0 10px;
     margin: 0 14px;
     -webkit-transition: all .2s ease-in-out .2s;
@@ -496,7 +501,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: rgba(0, 255, 221, .5);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -628,7 +633,7 @@ a.active {
 
 #contact {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #555;
 }
 
 #contact-form input,
