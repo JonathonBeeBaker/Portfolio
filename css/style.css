@@ -381,7 +381,7 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color:  rgba(82, 241, 255, 0.85);
+    background-color:  rgba(10, 191, 207, 0.85);
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
