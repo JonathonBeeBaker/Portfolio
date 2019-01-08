@@ -21,11 +21,7 @@
 
 @import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Barrio:400,400i,700,700i,900,900i';
 
-/*
-font-family: 'Playfair Display', serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
+
 
 
 /* typography
@@ -323,8 +319,9 @@ a.active {
 ==================================================*/
 
 #experience {
-    padding: 100px 0;
-    background: #555;
+    background: url(../img/arches.png);
+    background-size: cover;
+    height: 100vh;
 }
 
 .experience-row {
@@ -536,7 +533,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: red;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -632,8 +629,9 @@ a.active {
 ==================================================*/
 
 #contact {
-    padding: 100px 0;
-    background: #555;
+    background: url(../img/foxface.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 
 #contact-form input,
@@ -650,7 +648,7 @@ a.active {
     line-height: 13px;
     font-size: 1.3rem;
     line-height: 1.3rem;
-    color: #000;
+    color: #fff;
 }
 
 #contact-form label.error {
@@ -738,6 +736,7 @@ fieldset {
     padding-left: 0;
     list-style: none;
     margin-top: 20px;
+    
 }
 
 .social li {
@@ -745,7 +744,7 @@ fieldset {
 }
 
 .social li a {
-    color: #333;
+    color: #fff;
     font-size: 35px;
     margin-right: 15px;
     transition: all .3s;
@@ -753,10 +752,12 @@ fieldset {
 }
 
 .social li a:hover {
-    color: #425BB5;
+    color: rgb(252, 0, 218);
 }
 
-
+.contactInfo {
+    color: #fff;
+}
 /* Responsive media queries
 ==================================================*/
 
