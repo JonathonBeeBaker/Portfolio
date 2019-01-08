@@ -55,6 +55,14 @@ h4:before {
     top: 6px;
 }
 
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+.shadow {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px #111;
+}
 
 /* General
 ==================================================*/
@@ -321,7 +329,7 @@ a.active {
 #experience {
     background: url(../img/arches.png);
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
 }
 
 .experience-row {
@@ -373,7 +381,7 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #425BB5;
+    background-color:  rgba(82, 241, 255, 0.85);
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
@@ -412,14 +420,14 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #333;
-    outline: 10px solid #555;
+    background-color: rgba(10, 191, 207, 0.85);
+    outline: 3px solid #555;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
     position: absolute;
     top: 0;
     left: 2em;
-    width: 2em;
+    width: 1em;
     height: 1em;
 }
 
