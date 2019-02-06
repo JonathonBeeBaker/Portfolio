@@ -717,16 +717,16 @@ fieldset {
 }
 
 #success p {
-    color: #425BB5;
+    color: rgb(252, 252, 252);
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid #425BB5;
+    border: 2px solid rgb(0, 212, 250);
     margin-top: 10px;
 }
 
 #error p {
-    color: #D33E43;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     text-align: center;
     padding: 10px;
@@ -735,7 +735,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #425BB5;
+    background-color: rgba(0, 33, 36, 0.603);
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
