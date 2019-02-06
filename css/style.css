@@ -389,7 +389,8 @@ a.active {
 }
 
 .timeline-event-copy {
-    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 1em;
     position: relative;
     top: -1.875em;
     left: 4em;
@@ -510,8 +511,8 @@ a.active {
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     color: #333;
 }
 
@@ -525,6 +526,7 @@ a.active {
     padding: 10px;
     width: 100%;
     font-weight: bold;
+   
 }
 
 .portfolio_item .portfolio_item_hover .item_info span {
@@ -533,8 +535,8 @@ a.active {
     font-size: 18px;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
-    -webkit-transition: all .3s ease-in-out .3s;
-    transition: all .3s ease-in-out .3s;
+    -webkit-transition: all .5s ease-in-out .5s;
+    transition: all .5s ease-in-out .5s;
     opacity: 0;
 }
 
@@ -547,8 +549,8 @@ a.active {
     margin-top: 10px;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
-    -webkit-transition: all .3s ease-in-out .3s;
-    transition: all .3s ease-in-out .3s;
+    -webkit-transition: all .5s ease-in-out .5s;
+    transition: all .5s ease-in-out .5s;
     opacity: 0;
     font-size: 10px;
     letter-spacing: 2px;
@@ -601,17 +603,20 @@ a.active {
 .modal-content {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     border: none;
+    font-family: 'Lato', sans-serif;
 }
 
 .popup-modal {
-    background: #fff;
+    background: #444;
+    size: 100px, 100px;
 }
 
 .close-popup-modal {
+    color: red;
     float: right;
     margin: 20px;
     font-size: 22px;
-    opacity: 0;
+    opacity: 100;
     cursor: pointer;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -623,11 +628,11 @@ a.active {
 }
 
 .animatedModal-on .close-popup-modal {
-    opacity: 1;
+    opacity: 100;
 }
 
 .modal-content h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Barrio', cursive;
     font-size: 40px;
     line-height: 50px;
 }
