@@ -50,8 +50,8 @@ h4:before {
     left: -40px;
     content: "";
     display: block;
-    height: 9px;
-    background: rgb(238, 172, 255);
+    height: 6px;
+    background: rgb(0, 0, 0);
     top: 6px;
 }
 
@@ -61,7 +61,7 @@ h3 {
 
 .shadow {
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 3px #111;
+    
 }
 
 /* General
@@ -312,15 +312,7 @@ a.active {
     filter: grayscale(100%);
 }
 
-.about-border {
-    position: absolute;
-    border: 10px solid rgb(0, 255, 221);
-    width: 450px;
-    height: 400px;
-    top: 20px;
-    left: 50px;
-    z-index: 1
-}
+
 
 
 /* experience section
@@ -329,7 +321,7 @@ a.active {
 #experience {
     background: url(../img/arches.png);
     background-size: cover;
-    height: 110vh;
+    height: 175vh;
 }
 
 .experience-row {
@@ -422,7 +414,6 @@ a.active {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: rgba(10, 191, 207, 0.85);
-    outline: 3px solid #555;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
     position: absolute;
