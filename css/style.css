@@ -35,11 +35,11 @@ h1 {
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: rgb(255, 255, 255);
+    color: rgb(131, 131, 131);
     margin-left: 40px;
     font-weight: 700;
 }
@@ -64,11 +64,16 @@ h3 {
     
 }
 
+p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+
 /* General
 ==================================================*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Didact Gothic', sans-serif; 
     font-size: 14px;
     line-height: 24px;
 }
@@ -330,7 +335,7 @@ a.active {
 }
 
 .experience-row h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     color: #425BB5;
